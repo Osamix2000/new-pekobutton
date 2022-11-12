@@ -96,7 +96,7 @@ export default {
   computed: {
     vercel_logo() {
       const mode = this.$root.dark ? 'dark' : 'light';
-      return '/img/vercel/' + mode + '.svg';
+      return './img/vercel/' + mode + '.svg';
     }
   },
   created() {

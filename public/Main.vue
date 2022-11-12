@@ -71,7 +71,7 @@
         offset-x=40
         offset-y=20
       > -->
-      <!-- <router-link to="/pekolanguage" class="a"> -->
+      <!-- <router-link to="./pekolanguage" class="a"> -->
       <!-- <v-btn disabled class="ma-2" raised color="secondary">{{$t("ui.pekolanguage")}}</v-btn> -->
       <!-- </router-link> -->
       <!-- </v-badge> -->
@@ -235,7 +235,7 @@
 </template>
 
 <script>
-import voicelist from "../assets/voices.json";
+import voicelist from "../src/assets/voices.json";
 var audio = new Audio(); 
 var i = 0;
 export default {

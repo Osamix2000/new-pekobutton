@@ -1,8 +1,9 @@
 module.exports = {
+    publicPath: './',
     pluginOptions: {
         i18n: {
-            locale: 'en',
-            fallbackLocale: 'en',
+            locale: 'ja',
+            fallbackLocale: 'ja',
             localeDir: 'locales',
             enableInSFC: false
         }
@@ -23,7 +24,7 @@ module.exports = {
         open: true,
         proxy: {
             '/api': {
-                target: 'https://peko.top',
+                target: 'https://ferferian.sytes.net/peko',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/api': '/'
